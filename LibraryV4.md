@@ -1,7 +1,7 @@
 # redz Library V4
 ## Library loadstring
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Source.lua"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Source.lua"))()
 ```
 
 library functions
@@ -46,7 +46,7 @@ local Window = redzlib:MakeWindow({
 ## Notification
 Create a Notification
 ```lua
-local Notify = Library:MakeNotify({
+local Notify = redzlib:MakeNotify({
   Title = "Notification",
   Text = "This is a Notification",
   Time = 5
