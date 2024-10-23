@@ -16,9 +16,9 @@ local redzLib = {
   Flags = {},
   Save = {
     Theme = "Default",
-    UISize = {550, 400},
-    ScrollSize = 160,
-    TransparencyHub = 0.1
+    UISize = {550, 350},
+    ScrollSize = 180,
+    TransparencyHub = 0.7
   },
   Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Icons.lua"))() --[[
     I found this source on fluent but I don't know who created it
